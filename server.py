@@ -1,6 +1,6 @@
 import flask
 from flask_restplus import Resource, Api
-from ass2_demo.main import *
+from .main import * # you may need to fix this line 
 
 # 1. init
 app = flask.Flask(__name__)
