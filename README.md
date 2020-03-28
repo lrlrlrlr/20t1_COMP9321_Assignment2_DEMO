@@ -6,5 +6,5 @@ This is a tutorial demo code for assignment2 COMP9321 in 2020 Term1.
 
 - dont copy the code, or you will get 0 mark.  
 - this is a tutorial demo code, it's not complete.
-- feel free to post an issue or contact me: ruili.info@gmail.com
+- If you got any prob, feel free to post an issue or contact me: ruili.info@gmail.com
 
