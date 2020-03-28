@@ -12,8 +12,10 @@ class Data:
     def __init__(self):
         self.current_id = 0
         self.all_tables = list()
-        # delete the exist database to avoid problems when rerun
-        os.remove(db_name)
+
+        # delete the exist database to avoid problems when rerun the server
+        if os.path.exists(db_name):
+            os.remove(db_name)
 
     def import_data_from_worldbank(self, indicator_id):
         # 1. request
